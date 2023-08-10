@@ -262,7 +262,7 @@ namespace LJ_AM450_New
         private void label2_Click(object sender, EventArgs e)
         {
             ChangeControl(projectControl);
-            panelSide.Visible = true;
+            panelSide.Visible = false;
         }
     }
 }
