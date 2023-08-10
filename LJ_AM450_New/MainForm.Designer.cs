@@ -31,9 +31,9 @@ namespace LJ_AM450_New
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.Leftpanel = new System.Windows.Forms.Panel();
             this.EngineerUI = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -62,11 +62,8 @@ namespace LJ_AM450_New
             this.statelable = new System.Windows.Forms.Label();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.copyright = new System.Windows.Forms.Label();
-            this.panelUp = new System.Windows.Forms.Panel();
             this.CenterPanel = new System.Windows.Forms.Panel();
             this.dpanelCenter = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.PanelWarning = new System.Windows.Forms.Panel();
             this.WarningGrid = new System.Windows.Forms.DataGridView();
             this.Time = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -81,7 +78,6 @@ namespace LJ_AM450_New
             this.TimePanal.SuspendLayout();
             this.panel1.SuspendLayout();
             this.CenterPanel.SuspendLayout();
-            this.dpanelCenter.SuspendLayout();
             this.PanelWarning.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.WarningGrid)).BeginInit();
             this.SuspendLayout();
@@ -501,20 +497,10 @@ namespace LJ_AM450_New
             this.copyright.TabIndex = 0;
             this.copyright.Text = "Copyright © 2023 LuoJiaTech. All rights reserved.";
             // 
-            // panelUp
-            // 
-            this.panelUp.BackColor = System.Drawing.Color.DarkGray;
-            this.panelUp.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelUp.Location = new System.Drawing.Point(0, 0);
-            this.panelUp.Name = "panelUp";
-            this.panelUp.Size = new System.Drawing.Size(1094, 79);
-            this.panelUp.TabIndex = 5;
-            // 
             // CenterPanel
             // 
             this.CenterPanel.BackColor = System.Drawing.Color.Transparent;
             this.CenterPanel.Controls.Add(this.dpanelCenter);
-            this.CenterPanel.Controls.Add(this.panelUp);
             this.CenterPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.CenterPanel.Location = new System.Drawing.Point(170, 0);
             this.CenterPanel.Name = "CenterPanel";
@@ -523,35 +509,11 @@ namespace LJ_AM450_New
             // 
             // dpanelCenter
             // 
-            this.dpanelCenter.Controls.Add(this.label5);
-            this.dpanelCenter.Controls.Add(this.label7);
             this.dpanelCenter.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dpanelCenter.Location = new System.Drawing.Point(0, 79);
+            this.dpanelCenter.Location = new System.Drawing.Point(0, 0);
             this.dpanelCenter.Name = "dpanelCenter";
-            this.dpanelCenter.Size = new System.Drawing.Size(1094, 719);
+            this.dpanelCenter.Size = new System.Drawing.Size(1094, 798);
             this.dpanelCenter.TabIndex = 6;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 72F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label5.Location = new System.Drawing.Point(137, 128);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(563, 118);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "LuoJiaTech";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Century Gothic", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label7.Location = new System.Drawing.Point(149, 313);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(178, 46);
-            this.label7.TabIndex = 2;
-            this.label7.Text = "SLM450A";
             // 
             // PanelWarning
             // 
@@ -566,40 +528,40 @@ namespace LJ_AM450_New
             // 
             this.WarningGrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.WarningGrid.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.ControlDark;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.WarningGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.ControlDark;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.WarningGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.WarningGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.WarningGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Time,
             this.Num,
             this.Warning});
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.WarningGrid.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.WarningGrid.DefaultCellStyle = dataGridViewCellStyle5;
             this.WarningGrid.Dock = System.Windows.Forms.DockStyle.Fill;
             this.WarningGrid.EnableHeadersVisualStyles = false;
             this.WarningGrid.Location = new System.Drawing.Point(0, 0);
             this.WarningGrid.Name = "WarningGrid";
             this.WarningGrid.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.WarningGrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.WarningGrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.WarningGrid.RowHeadersVisible = false;
             this.WarningGrid.RowHeadersWidth = 62;
             this.WarningGrid.RowTemplate.Height = 23;
@@ -664,8 +626,6 @@ namespace LJ_AM450_New
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.CenterPanel.ResumeLayout(false);
-            this.dpanelCenter.ResumeLayout(false);
-            this.dpanelCenter.PerformLayout();
             this.PanelWarning.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.WarningGrid)).EndInit();
             this.ResumeLayout(false);
@@ -689,10 +649,7 @@ namespace LJ_AM450_New
         private System.Windows.Forms.Label statelable;
         private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.Label copyright;
-        private System.Windows.Forms.Panel panelUp;
         private System.Windows.Forms.Panel CenterPanel;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel PanelWarning;
         private System.Windows.Forms.Button TemControl;
         private System.Windows.Forms.Button FilterControl;

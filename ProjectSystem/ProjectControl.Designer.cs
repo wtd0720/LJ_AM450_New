@@ -34,7 +34,11 @@ namespace ProjectSystem
             this.btnSave = new System.Windows.Forms.Button();
             this.btnOpen = new System.Windows.Forms.Button();
             this.btnNew = new System.Windows.Forms.Button();
+            this.panelCenter = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.panelUp.SuspendLayout();
+            this.panelCenter.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelUp
@@ -125,15 +129,50 @@ namespace ProjectSystem
             this.btnNew.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnNew.UseVisualStyleBackColor = false;
             // 
+            // panelCenter
+            // 
+            this.panelCenter.Controls.Add(this.label7);
+            this.panelCenter.Controls.Add(this.label5);
+            this.panelCenter.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelCenter.Location = new System.Drawing.Point(0, 79);
+            this.panelCenter.Name = "panelCenter";
+            this.panelCenter.Size = new System.Drawing.Size(1094, 719);
+            this.panelCenter.TabIndex = 4;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 72F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.label5.Location = new System.Drawing.Point(137, 128);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(563, 118);
+            this.label5.TabIndex = 2;
+            this.label5.Text = "LuoJiaTech";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Century Gothic", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.label7.Location = new System.Drawing.Point(149, 313);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(178, 46);
+            this.label7.TabIndex = 3;
+            this.label7.Text = "SLM450A";
+            // 
             // ProjectControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.panelCenter);
             this.Controls.Add(this.panelUp);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ProjectControl";
             this.Size = new System.Drawing.Size(1094, 798);
             this.panelUp.ResumeLayout(false);
+            this.panelCenter.ResumeLayout(false);
+            this.panelCenter.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -145,5 +184,8 @@ namespace ProjectSystem
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Button btnOpen;
         private System.Windows.Forms.Button btnNew;
+        private System.Windows.Forms.Panel panelCenter;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label7;
     }
 }

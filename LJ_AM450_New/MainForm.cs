@@ -80,6 +80,7 @@ namespace LJ_AM450_New
 
             this.timerRead.Start();
             panelSide.Visible = false;
+            ChangeControl(projectControl);
         }
         private void ChangeAdmin(bool value)
         {
